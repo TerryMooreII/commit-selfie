@@ -6,7 +6,6 @@ git-commit-pic
 Take a picture and upload it to imgur.com at every commit.  The url to the uploaded image is appended to the commit message.
 
 
-
 How-to
 ---------
 - Clone this repo to the .git folder of your project
@@ -21,9 +20,21 @@ Config.js
 ```javascript
 exports.imgur = {
 	clientId: '<your-client-id>',
-	clientSecret: '<your-client-secret'
+	clientSecret: '<your-client-secret>'
 };
 ```
+
+Requirements
+--------------
+mplayer
+
+
+Supported OS
+---------------
+Only tested on Linux
+
+
+
 
 NOTE
 ============
