@@ -1,0 +1,5 @@
+#!/bin/sh
+
+URL=$(node /home/motersho/Development/git-commit-pic/index.js) 
+
+echo $(cat "$1") "$URL" > "$1"
