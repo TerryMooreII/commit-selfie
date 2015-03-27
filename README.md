@@ -23,6 +23,11 @@ exports.imgur = {
 	clientSecret: '<your-client-secret>'
 };
 ```
+Dark Images
+-----------------
+If your images are dark then increase the `FRAME_TO_UPLOAD` value.
+
+
 
 Requirements
 --------------
