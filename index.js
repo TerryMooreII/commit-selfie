@@ -1,4 +1,5 @@
-
+//Terry Moore
+//Need to clean up code
 
 var config = require('./config.js')
 var exec = require('child_process').exec;
