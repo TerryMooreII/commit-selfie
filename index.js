@@ -6,7 +6,7 @@ var exec = require('child_process').exec;
 var imgur = require('imgur');
 var FRAME_TO_UPLOAD = 12;
 var PIC_CMD = 'mplayer -vo png -frames ' + FRAME_TO_UPLOAD + ' tv://';
-var IMG_FILE = '../git-commit-pic/0000000' + FRAME_TO_UPLOAD + '.png';
+var IMG_FILE = '../git-commit-pic/000000' + FRAME_TO_UPLOAD + '.png';
 
 imgur.setClientId(config.imgur.clientId);
 
