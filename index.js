@@ -3,11 +3,11 @@
 var config = require('./config.js')
 var exec = require('child_process').exec;
 var imgur = require('imgur');
+var FRAME_TO_UPLOAD = 8;
+var PIC_CMD = 'mplayer -vo png -frames ' + FRAME_TO_UPLOAD + ' tv://';
+var IMG_FILE = '../git-commit-pic/0000000' + FRAME_TO_UPLOAD + '.png';
 
 imgur.setClientId(config.imgur.clientId);
-
-var PIC_CMD = 'mplayer -vo png -frames 2 tv://';
-var IMG_FILE = '00000002.png';
 
 exec(PIC_CMD,
   function (error, stdout, stderr) {
