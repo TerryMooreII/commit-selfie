@@ -1,6 +1,6 @@
 
 
-git-commit-pic
+Commit Selfie
 ================
 
 Take a picture and upload it to imgur.com at every commit.  The url to the uploaded image is appended to the commit message.
@@ -8,8 +8,8 @@ Take a picture and upload it to imgur.com at every commit.  The url to the uploa
 
 How-to
 ---------
-- Clone this repo to the .git folder of your project
-- Navigate the folder and run `npm install`
+- Clone this repo to the `.git/` folder of your project
+- Navigate the `.git/commit-selfie` folder and run `npm install`
 - Go to imgur.com and get an API key
 - Create a config.js and add your keys to it (See below)
 - Copy the `commit-msg` git hook to the `.git/hooks/` folder.

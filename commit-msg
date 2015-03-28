@@ -1,5 +1,5 @@
 #!/bin/sh
 
-URL=$(node ../git-commit-pic/index.js) 
+URL=$(node ../commit-selfie/index.js) 
 
 echo $(cat "$1") "$URL" > "$1"
